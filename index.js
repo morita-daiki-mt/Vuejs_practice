@@ -1,3 +1,6 @@
 var app = new Vue({
-  //　ここにいろいろ書く
-  })
+  el: '#app',
+  data: {
+      message: 'Hello World'
+  }
+})
