@@ -6,5 +6,11 @@ var app = new Vue({
         name:'モンブラン',
         price:100
     },
-    }
+    amount:2
+  },
+  computed: {
+      sumPrice: function () {
+        return this.item.price * this.amount
+      }
+  }
 })
