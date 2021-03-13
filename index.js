@@ -1,6 +1,10 @@
 var app = new Vue({
   el: '#app',
   data: {
-      message: 'Hello World'
-  }
+    custemer_list: ['いぬ','きじ','さる'],
+    item:{
+        name:'モンブラン',
+        price:100
+    },
+    }
 })
