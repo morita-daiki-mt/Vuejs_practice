@@ -9,8 +9,17 @@ var app = new Vue({
     amount:2
   },
   computed: {
-      sumPrice: function () {
+    sumPrice: function () {
         return this.item.price * this.amount
-      }
+    },
+    randomFromComputed: function (){
+        return Math.random()
+    }
+  },
+  methods:{
+    randomFromMethods: function () {
+        return Math.random()
+    }
   }
+
 })
