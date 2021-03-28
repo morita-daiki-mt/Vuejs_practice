@@ -8,7 +8,9 @@
 
 <body>
   <div id = "app">
-    <p v-if="sugoi">Vue はすごいぜ！</p>
+    <button v-on:click="light = true">ON</button>
+    <button v-on:click="light = false">OFF</button>
+    <p v-if="light">点灯！</p>
   </div>
     <script src = "index2.js"></script>
 </body>
